@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ | Nguyễn Ngọc Tuấn Khang</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">K</span>
+                <span>Khang's Portfolio</span>
+            </a>
+
+            <div class="nav-menu">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="contact.html" class="active">Liên hệ</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <p class="section-subtitle">CONTACT</p>
+            <h1>Liên hệ với mình</h1>
+            <p>Đừng ngần ngại gửi lời nhắn cho mình nhé!</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container contact-container">
+
+            <div class="contact-info">
+                <h2>Thông tin liên hệ</h2>
+
+                <p>
+                    Nếu bạn muốn trao đổi, hợp tác hoặc tìm hiểu
+                    thêm về mình, hãy liên hệ qua các thông tin bên dưới.
+                </p>
+
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <h3>Email</h3>
+                        <p>
+                            <a href="mailto:khangtuankhang1234@gmail.com">
+                                khangtuankhang1234@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-icon">🎓</span>
+                    <div>
+                        <h3>Trường học</h3>
+                        <p>Đại học Văn Hiến</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <h3>Địa chỉ</h3>
+                        <p>Thành phố Hồ Chí Minh, Việt Nam</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-box">
+                <h2>Gửi lời nhắn</h2>
+
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Họ và tên</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Nhập họ và tên của bạn"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Nhập email của bạn"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Chủ đề</label>
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="Nhập chủ đề"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Nội dung</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Nhập nội dung lời nhắn..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Gửi lời nhắn
+                    </button>
+
+                    <p id="formMessage"></p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Nguyễn Ngọc Tuấn Khang | My Portfolio</p>
+            <p>Được xây dựng bằng HTML, CSS và JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
